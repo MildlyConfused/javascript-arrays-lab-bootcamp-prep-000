@@ -17,6 +17,7 @@ function destructivelyRemoveFirstKitten(name){
   kittens.shift(name)
 }
 
-function destructivelyRemoveLastKitten(name){
-  kittens.pop(name)
+function appendKitten(name){
+  let newA = [...kittens, name]
+  return newA
 }
