@@ -28,7 +28,7 @@ function prependKitten(name){
 }
 
 function removeLastKitten(name){
-  let newA = [...kittens, name]
+  let newA = 
   return newA
 }
 
