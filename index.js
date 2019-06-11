@@ -32,5 +32,9 @@ function removeLastKitten(name){
   return newA
 }
 
+function removeFirstKitten(name){
+  let newA = kittens.slice(1, kittens.length - 1)
+  return newA
+}
 
 
